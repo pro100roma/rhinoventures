@@ -6,19 +6,114 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .h1 {
+        font-size: 48px;
+    }
+    .categories__title {
+        font-size: 20px;
+    }
+    .footer-top__item {
+        width: 32%;
+    }
+    .header__menu {
+        width: 320px;
+        background: #000;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        z-index: 10;
+        transition: all .6s ease;
+        flex-direction: column;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        right: -320px;
+    }
+    .toggle_mnu {
+		display: block;
+    }
+    .header__menu.active {
+        right: 0;
+    }
+    .main-screen__header {
+        left: 0;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .header__menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__menu ul li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .h1 {
+        font-size: 42px;
+    }
+    .blocks_w25 {
+        width: 50%;
+    }
+    .s-about .blocks__item {
+        margin: 20px 0;
+    }
+    .categories__item_w25 {
+        width: 50%;
+    }
+    .footer-top {
+        flex-wrap: wrap;
+    }
+    .footer-top__item {
+        width: 50%;
+    }
+    .footer-top__contacts-block {
+        margin: 20px 0 0 0;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .h1 {
+        font-size: 32px;
+    }
+    .blocks_w25 {
+        width: 100%;
+    }
+    .categories__item_w25 {
+        width: 100%;
+    }
+    .categories__item_w50 {
+        width: 100%;
+    }
+    .footer-top__item {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-bottom a {
+        padding: 0;
+        margin: 0;
+    }
+    .footer-bottom a:before {
+        content: none;
+    }
+    
 }
-
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+    .h1 {
+        font-size: 28px;
+    }
+    .main-screen__content {
+        font-size: 13px;
+    }
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
