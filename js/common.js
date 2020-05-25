@@ -18,9 +18,16 @@ jQuery(function($) {
 			document.body.style.overflow = 'visible';
 		});
 
+		//Anchor scroll
+		$(".main-screen__scroll-down").click(function(){
+			var _href = $(this).attr("href");
+			$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+			return false;
+		});
+
+		//Animations
+		$(".main-screen__content .h1").animated("fadeInDown");
+		$(".blocks__item").animated("fadeIn");
+		$(".btn").animated("fadeInDown");
 	});
-});
-
-$(window).load(function() {
-
 });
