@@ -376,6 +376,8 @@ img {
 }
 .footer-top__item {
 	width: 30%;
+	padding-right: 10px;
+    box-sizing: border-box;
 }
 .footer-top__item p {
 	margin: 5px 0;
@@ -467,6 +469,7 @@ img {
 }
 .s-about {
 	min-height: 100vh;
+	padding: 20px 0 40px;
 }
 .s-about > .container {
 	min-height: 100vh;

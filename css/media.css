@@ -95,20 +95,7 @@
 	}
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-    .h1 {
-        font-size: 32px;
-    }
-    .blocks_w25 {
-        width: 100%;
-    }
-    .categories__item_w25 {
-        width: 100%;
-    }
-    .categories__item_w50 {
-        width: 100%;
-    }
+@media only screen and (max-width : 640px) {
     .footer-top__item {
         width: 100%;
         margin: 10px 0;
@@ -123,6 +110,22 @@
     }
     .footer-bottom a:before {
         content: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .h1 {
+        font-size: 32px;
+    }
+    .blocks_w25 {
+        width: 100%;
+    }
+    .categories__item_w25 {
+        width: 100%;
+    }
+    .categories__item_w50 {
+        width: 100%;
     }
     
 }
