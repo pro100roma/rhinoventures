@@ -1,19 +1,19 @@
 @font-face {
-	font-family: "TTNorms";
+	font-family: "Montserrat";
 	font-display: swap;
-	src: url("../fonts/TTNorms/TTNorms-Regular.otf");
+	src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 	font-weight: 400;
 }
 @font-face {
-	font-family: "TTNorms";
+	font-family: "Montserrat";
 	font-display: swap;
-	src: url("../fonts/TTNorms/TTNorms-Light.otf");
+	src: url("../fonts/Montserrat/Montserrat-Light.ttf");
 	font-weight: 300;
 }
 @font-face {
-	font-family: "TTNorms";
+	font-family: "Montserrat";
 	font-display: swap;
-	src: url("../fonts/TTNorms/TTNorms-Medium.otf");
+	src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
 	font-weight: 500;
 }
 
