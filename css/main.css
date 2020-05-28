@@ -260,17 +260,25 @@ img {
 	text-transform: uppercase;
 	font-weight: 400;
 	margin: 0;
+}
+.heading-underline {
 	padding-bottom: 20px;
 	position: relative;
+	margin: 0;
 }
-.main-screen__content .h5:after {
+.heading-underline:after {
 	content: '';
 	position: absolute;
-	background: rgb(58,201,156);
 	height: 1px;
 	width: 100px;
 	bottom: 0;
 	left: calc(50% - 50px);
+}
+.heading-underline.green:after {
+	background: rgb(58,201,156);
+}
+.heading-underline.white:after {
+	background: #ffffff;
 }
 .main-screen__content p {
 	margin: 0 0 40px;
@@ -295,6 +303,9 @@ img {
 .blocks {
 	display: flex;
 	flex-wrap: wrap;
+}
+.blocks_w50 {
+	width: 50%;
 }
 .blocks_w33 {
 	width: 33%;
@@ -330,7 +341,7 @@ img {
 	left: calc(50% - 50px);
 }
 .s-about .blocks__item p {
-	margin: 0;
+	margin: 10px 0;
 }
 .s-about .blocks__item img {
 	height: 70px;
@@ -437,6 +448,9 @@ img {
 	margin-left: 10px;
     margin-right: -10px;
 }
+.footer {
+	border-top: 1px solid #ddd;
+}
 .footer-bottom {
 	padding: 25px 0;
     border-top: 1px solid #ddd;
@@ -478,6 +492,67 @@ img {
     justify-content: space-between;
 }
   
+/** 
+** About page
+**/
 
-
-  
+.s-about.p-about {
+	padding: 60px 0 40px;
+}
+.p-about.s-about .blocks__item {
+	text-align: left;
+	align-items: flex-start;
+}
+.text-big {
+	font-size: 26px;
+}
+.s-mission {
+	padding-bottom: 100px;
+}
+.bg-cover-center {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.blocks__team.team {
+	padding: 0 20px;
+	align-items: flex-start;
+	margin: 20px 0;
+}
+.team__image {
+	position: relative;
+	margin-bottom: 40px;
+}
+.team__image img {
+	width: 100%;
+}
+.team__image .image-bg {
+	background: rgb(58,201,156);
+    right: -18px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 8px;
+    z-index: -1;
+}
+.team__position {
+	color:rgb(58,201,156);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.team__title {
+	margin: 5px 0;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+.team__email a {
+	color: #d0d0d0;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.team__socials a {
+	color: #d0d0d0;
+	font-size: 20px;
+	margin-right: 10px;
+}

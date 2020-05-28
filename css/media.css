@@ -50,6 +50,9 @@
     .blocks_w25 {
         width: 50%;
     }
+    .blocks_w33.blocks__team {
+        width: 50%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -92,7 +95,10 @@
 		-o-animation: none !important;
 		-ms-animation: none !important;
 		animation: none !important;
-	}
+    }
+    .p-about.s-about .blocks_w50 {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width : 640px) {
@@ -110,6 +116,10 @@
     }
     .footer-bottom a:before {
         content: none;
+    }
+    .blocks_w33.blocks__team {
+        width: auto;
+        margin: 20px auto;
     }
 }
 
