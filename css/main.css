@@ -181,6 +181,9 @@ img {
 	border-bottom: 3px solid rgb(85,203,118);
 	background-size: cover;
 }
+.main-screen.disclaimer {
+	height: 60vh;
+}
 .header {
 	display: flex;
 	align-items: center;
@@ -555,4 +558,10 @@ img {
 	color: #d0d0d0;
 	font-size: 20px;
 	margin-right: 10px;
+}
+
+/* Disclaimer page */
+.s-disclaimer .h4 {
+	text-transform: none;
+	font-weight: 500;
 }
