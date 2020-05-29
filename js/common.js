@@ -29,5 +29,7 @@ jQuery(function($) {
 		$(".main-screen__content .h1").animated("fadeInDown");
 		$(".blocks__item").animated("fadeIn");
 		$(".btn").animated("fadeInDown");
+
+		
 	});
 });

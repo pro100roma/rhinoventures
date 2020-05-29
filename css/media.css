@@ -1,7 +1,12 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .project__title {
+        font-size: 36px;
+    }
+    .project__text {
+        font-size: 16px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -53,6 +58,12 @@
     .blocks_w33.blocks__team {
         width: 50%;
     }
+    .project__title {
+        font-size: 28px;
+    }
+    .project__text {
+        font-size: 14px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -99,6 +110,28 @@
     .p-about.s-about .blocks_w50 {
         width: 100%;
     }
+    .s-ventures p {
+        text-align: left;
+    }
+    .s-projects {
+        background-image: -moz-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
+	    background-image: -webkit-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
+	    background-image: -ms-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
+    }
+    .project__img {
+        display: none;
+    }
+    .project__descr {
+        width: 100%;
+        padding-bottom: 80px;
+        padding-top: 40px;
+    }
+    .project-arrows {
+        left: calc(50% - 40px);
+    }
+    .project-slider__item.project {
+        background: none;
+    }
 }
 
 @media only screen and (max-width : 640px) {
@@ -137,7 +170,10 @@
     .categories__item_w50 {
         width: 100%;
     }
-    
+    .project__descr {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
