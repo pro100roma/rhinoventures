@@ -64,6 +64,9 @@
     .project__text {
         font-size: 14px;
     }
+    .s-contact .blocks_w50 {
+        width: 100%;
+    }
 }
 
 /* Small Devices, Tablets */

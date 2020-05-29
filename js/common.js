@@ -30,6 +30,25 @@ jQuery(function($) {
 		$(".blocks__item").animated("fadeIn");
 		$(".btn").animated("fadeInDown");
 
-		
-	});
+		//Form inputs
+		$('.input-group p').click(function() {
+			if(!$(this).hasClass('active')) {
+				$(this).addClass('active');
+				$(this).siblings('input').focus();
+				$(this).siblings('textarea').focus();
+			}
+		});
+		$('.input-group input, .input-group textarea').focus(function() {
+			$(this).siblings('p').addClass('active');
+		});
+		$('.input-group input, .input-group textarea').focusout(function() {
+			$(this).siblings('p').removeClass('active');
+		});
+
+		//Map
+		$('.map-toggle').click(function() {
+			$(this).find('.tumbler').toggleClass('active');
+			$('.singapore-map, .vietnam-map').toggleClass('active');
+		});
+	});	
 });
