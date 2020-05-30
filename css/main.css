@@ -672,7 +672,7 @@ img {
 	outline: none;
 	width: 100%;
 	font-size: 16px;
-	height: 100px;
+	height: 150px;
 	resize: none;
 }
 .contact-form .btn {
@@ -719,6 +719,8 @@ img {
 	left: 1px;
 }
 .map-toggle .tumbler.active {
-	left: 147px;
-	
+	left: 147px;	
+}
+.thanks-block {
+	margin: 40px 0;
 }
