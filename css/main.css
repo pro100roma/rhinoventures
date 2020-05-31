@@ -635,6 +635,7 @@ img {
 	height: 40px;
 	color: #ffffff;
 	outline: none;
+	cursor: pointer;
 }
 
 /* Contact page
