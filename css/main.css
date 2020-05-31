@@ -242,6 +242,24 @@ img {
 .header__menu li a:hover:before {
 	width: 100%;
 }
+.content-link {
+	position: relative;
+}
+.content-link:before {
+	content: '';
+	width: 0;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: all .3s ease;
+}
+.content-link.color-green:before {
+	background: rgb(58,201,156);
+}
+.content-link:hover:before {
+	width: 100%;
+}
 .main-screen > .container {
 	display: flex;
 	flex-direction: column;
@@ -325,7 +343,8 @@ img {
 	align-items: center;
 	box-sizing: border-box;
 }
-.s-about .blocks__item {
+.s-about .blocks__item,
+.p-about .blocks__item {
 	text-align: center;
 	padding: 0 20px;
 }
@@ -416,7 +435,9 @@ img {
 .footer-top__email i {
 	color: #cccccc;
 	font-size: 18px;
-    margin-right: 5px;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
 }
 .domain::before {
     content: "\0040";
@@ -499,10 +520,10 @@ img {
 ** About page
 **/
 
-.s-about.p-about {
-	padding: 60px 0 40px;
+.p-about {
+	padding: 80px 0;
 }
-.p-about.s-about .blocks__item {
+.p-about .blocks__item {
 	text-align: left;
 	align-items: flex-start;
 }
@@ -513,7 +534,7 @@ img {
 	padding-bottom: 100px;
 }
 .bg-cover-center {
-	/* background-size: cover; */
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -575,7 +596,6 @@ img {
 }
 .project-slider__item.project {
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
 	background: url(../img/bg/bg_projects.jpg) no-repeat center;
 }
@@ -586,6 +606,7 @@ img {
 	width: 50%;
 	padding-left: 80px;
 	padding-right: 80px;
+	padding-top: 10%;
 	box-sizing: border-box;
 }
 .project__number {
@@ -663,6 +684,7 @@ img {
 	border-bottom: 1px solid #ccc;
 	outline: none;
 	width: 100%;
+	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 	padding: 4px 0;
 }
@@ -671,9 +693,15 @@ img {
 	border-bottom: 1px solid #ccc;
 	outline: none;
 	width: 100%;
+	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 	height: 150px;
 	resize: none;
+}
+.alert-error {
+	position: absolute;
+	color: #ff0000;
+	font-size: 12px;
 }
 .contact-form .btn {
 	cursor: pointer;
@@ -688,6 +716,9 @@ img {
 .vietnam-map.active,
 .singapore-map.active {
 	display: block;
+}
+.s-map iframe {
+	width: 100%;
 }
 .map-toggle {
 	width: 300px;

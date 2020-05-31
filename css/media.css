@@ -29,7 +29,7 @@
         z-index: 10;
         transition: all .6s ease;
         flex-direction: column;
-        padding: 30px 20px;
+        padding: 80px 20px 30px;
         box-sizing: border-box;
         right: -320px;
     }
@@ -67,12 +67,21 @@
     .s-contact .blocks_w50 {
         width: 100%;
     }
+    .project__descr {
+        padding-top: 7%;
+    }
+    .p-about .blocks_w50 {
+        width: 100%;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .h1 {
         font-size: 42px;
+    }
+    .header__menu {
+        padding: 30px 20px;
     }
     .s-about .blocks__item {
         margin: 20px 0;
@@ -110,16 +119,14 @@
 		-ms-animation: none !important;
 		animation: none !important;
     }
-    .p-about.s-about .blocks_w50 {
-        width: 100%;
-    }
     .s-ventures p {
         text-align: left;
     }
     .s-projects {
         background-image: -moz-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
 	    background-image: -webkit-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
-	    background-image: -ms-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(58,201,156) 0%, rgb(85,203,118) 100%);
+        padding-top: 20px;
     }
     .project__img {
         display: none;
@@ -134,6 +141,9 @@
     }
     .project-slider__item.project {
         background: none;
+    }
+    .p-about {
+        padding: 50px 0;
     }
 }
 
