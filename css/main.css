@@ -177,7 +177,7 @@ img {
 	color: #000000;
 }
 .main-screen {
-	height: 100vh;
+	min-height: 100vh;
 	border-bottom: 3px solid rgb(85,203,118);
 	background-size: cover;
 }
@@ -264,7 +264,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
+	min-height: 100vh;
 }
 .main-screen__content {
 	display: flex;
@@ -272,6 +272,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding: 90px 0;
 }
 .main-screen__content .h1 {
 	text-transform: uppercase;
