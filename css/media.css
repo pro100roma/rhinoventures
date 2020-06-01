@@ -78,7 +78,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .h1 {
-        font-size: 42px;
+        font-size: 36px;
     }
     .s-about .blocks__item {
         margin: 20px 0;
@@ -148,6 +148,9 @@
 }
 
 @media only screen and (max-width : 640px) {
+    .h1 {
+        font-size: 32px;
+    }
     .footer-top__item {
         width: 100%;
         margin: 10px 0;
@@ -171,9 +174,6 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    .h1 {
-        font-size: 32px;
-    }
     .blocks_w25 {
         width: 100%;
     }
