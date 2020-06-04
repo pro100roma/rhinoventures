@@ -177,7 +177,7 @@ img {
 	color: #000000;
 }
 .main-screen {
-	min-height: 100vh;
+	height: 100vh;
 	border-bottom: 3px solid rgb(85,203,118);
 	background-size: cover;
 }
@@ -264,7 +264,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	min-height: 100vh;
+	height: 100%;
 }
 .main-screen__content {
 	display: flex;
@@ -272,7 +272,6 @@ img {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 90px 0;
 }
 .main-screen__content .h1 {
 	text-transform: uppercase;
@@ -699,6 +698,19 @@ img {
 	font-size: 16px;
 	height: 150px;
 	resize: none;
+}
+.error {
+display: block;
+clear: both;
+}
+.ohnohoney {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
 }
 .alert-error {
 	position: absolute;

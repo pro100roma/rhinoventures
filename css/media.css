@@ -145,6 +145,10 @@
     .main-screen__content p {
         margin: 0 0 20px;
     }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width : 640px) {
@@ -154,10 +158,6 @@
     .footer-top__item {
         width: 100%;
         margin: 10px 0;
-    }
-    .footer-bottom {
-        flex-direction: column;
-        text-align: center;
     }
     .footer-bottom a {
         padding: 0;
